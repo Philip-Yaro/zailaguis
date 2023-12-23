@@ -6,6 +6,7 @@ root.maxsize(900,  600)
 root.config(bg="skyblue")
 
 # Create left and right frames
+# Frames with pack management
 left_frame  =  Frame(root,  width=200,  height=400,  bg='grey')
 left_frame.pack(side='left',  fill='both',  padx=10,  pady=5,  expand=True)
 
