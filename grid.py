@@ -27,7 +27,8 @@ tool_bar.grid(row=2,  column=0,  padx=5,  pady=5)
 def clicked():
     '''if button is clicked, display message'''
     print("Clicked.")
-
+    
+# the github boy
 # Example labels that serve as placeholders for other widgets
 Label(tool_bar,  text="Tools",  relief=RAISED).grid(row=0,  column=0,  padx=5,  pady=3,  ipadx=10)
 Label(tool_bar,  text="Filters",  relief=RAISED).grid(row=0,  column=1,  padx=5,  pady=3,  ipadx=10)
